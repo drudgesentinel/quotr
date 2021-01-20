@@ -7,4 +7,4 @@ const getRandom = list => {
 }
 
 const randomQuote = getRandom(quotes);
-console.log(chalk.blue(`${randomQuote.quote}\n -${randomQuote.author}`));
+console.log(`${chalk.blue(randomQuote.quote)}\n - ${chalk.cyan(randomQuote.author)}`);
