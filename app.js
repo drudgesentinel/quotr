@@ -2,4 +2,9 @@
 const chalk = require('chalk');
 const quotes = require('./quotes.js');
 
-chalk.blue(console.log(quotes[0]));
+const getRandom = list => {
+  return list[Math.floor((Math.random()*list.length))];
+}
+
+const randomQuote = getRandom(quotes);
+console.log(chalk.blue(`${randomQuote.quote}\n -${randomQuote.author}`));

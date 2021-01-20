@@ -8,7 +8,7 @@ const quotes = [
   {"author": "Friedrich Nietzsche", "quote": "In individuals, insanity is rare; but in groups, parties, nations and epochs, it is the rule."},
   {"author": "Lucretius", "quote": "But if one should guide his life by true principles, man's greatest riches is to live on a little with contented mind; for a little is never lacking."},
   {"author": "Lucretius", "quote": "A little river seems to him, who has never seen a larger river, a mighty stream; and so with other things—a tree, a man—anything appears greatest to him that never knew a greater."},
-  {"author": "Christopher Hitchens", "quote": "To the dumb question \"Why me?\" the cosmos barely bothers to return the reply: why not?"},
-  {"author": "Stephen Hawking", "quote": "“Remember to look up at the stars and not down at your feet. Never give up work. Work gives you meaning and purpose and life is empty without it. If you are lucky enough to find love, remember it is there and don't throw it away."},
+  {"author": "Christopher Hitchens", "quote": "To the dumb question \"Why me?\" the cosmos barely bothers to return the reply: \"why not?\""},
+  {"author": "Stephen Hawking", "quote": "Remember to look up at the stars and not down at your feet. Never give up work. Work gives you meaning and purpose and life is empty without it. If you are lucky enough to find love, remember it is there and don't throw it away."},
 ];
 module.exports = quotes;
